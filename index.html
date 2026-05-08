@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santhrupthi S — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+
+  <!-- SCROLL PROGRESS BAR -->
+  <div id="scroll-bar"></div>
+
+  <!-- BACK TO TOP -->
+  <button id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">SS</a>
+    <ul class="nav-links">
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="btn-theme" id="theme-toggle">🌙 Dark</button>
+      <a href="#contact" class="btn-nav">Let's Talk</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text fade-up">
+      <p class="hero-eyebrow">Full-Stack Developer</p>
+      <h1>Santhrupthi S</h1>
+      <p class="hero-typing">I am a <span id="typing-text"></span><span class="cursor">|</span></p>
+      <p class="hero-bio">MERN enthusiast &amp; Competitive Programmer crafting enterprise-scale applications with modern frameworks and a passion for clean, performant code.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="Santhrupthi S resume.pdf" class="btn-outline" download>Download Resume</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><span class="num">800+</span><span class="label">GitHub Commits</span></div>
+        <div class="hero-stat"><span class="num">100+</span><span class="label">LeetCode Solved</span></div>
+        <div class="hero-stat"><span class="num">5</span><span class="label">Live Projects</span></div>
+      </div>
+    </div>
+    <div class="hero-image fade-up">
+      <div class="photo-frame">
+        <div class="photo-ring"></div>
+        <img src="My Photo.jpg" alt="Santhrupthi S" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label fade-up">Background</div>
+    <h2 class="section-title fade-up">Education &amp; Experience</h2>
+    <p class="section-sub fade-up">My academic journey and professional milestones.</p>
+    <div class="timeline">
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-year">2024 — Present</div>
+          <h3>MERN Stack Development</h3>
+          <p>Intensive full-stack training covering ReactJS, Node.js, Express, MongoDB. Building real-world enterprise applications with industry best practices.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-year">2020 — 2024</div>
+          <h3>Bachelor's Degree in Computer Science</h3>
+          <p>Graduated with a strong foundation in data structures, algorithms, software engineering, and database management systems.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-year">2023</div>
+          <h3>Competitive Programming</h3>
+          <p>Solved 100+ LeetCode problems spanning arrays, dynamic programming, graphs, and system design challenges.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-year">2022</div>
+          <h3>Open Source Contributor</h3>
+          <p>800+ GitHub commits across personal and collaborative projects. Active in the developer community with consistent contribution streaks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label fade-up">Work</div>
+    <h2 class="section-title fade-up">My Projects</h2>
+    <p class="section-sub fade-up">Enterprise-scale full-stack applications built with modern frameworks.</p>
+    <div class="search-filter fade-up">
+      <input type="text" class="search-box" id="project-search" placeholder="🔍  Search projects...">
+      <div class="filter-tags" id="filter-tags"></div>
+    </div>
+    <div class="projects-grid" id="projects-container"></div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certificates">
+    <div class="section-label fade-up">Achievements</div>
+    <h2 class="section-title fade-up">Certificates</h2>
+    <p class="section-sub fade-up">Verified credentials from industry-recognized platforms.</p>
+    <div class="certs-grid" id="certs-container"></div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label fade-up">Expertise</div>
+    <h2 class="section-title fade-up">Skills</h2>
+    <p class="section-sub fade-up">Technologies I work with to build production-ready applications.</p>
+    <div class="skills-grid" id="skills-container"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label fade-up">Get In Touch</div>
+    <h2 class="section-title fade-up">Contact Me</h2>
+    <div class="contact-wrap">
+      <div class="contact-info fade-up">
+        <h3>Let's build something great together</h3>
+        <p>I'm open to freelance projects, collaborations, and full-time opportunities. Drop a message and I'll get back to you soon.</p>
+        <div class="contact-detail">
+          <div class="icon">📧</div>
+          <span>santhrupthi@example.com</span>
+        </div>
+        <div class="contact-detail">
+          <div class="icon">📍</div>
+          <span>Bengaluru, Karnataka, India</span>
+        </div>
+        <div class="contact-detail">
+          <div class="icon">💼</div>
+          <span>github.com/santhrupthi</span>
+        </div>
+        <div class="contact-detail">
+          <div class="icon">🔗</div>
+          <span>linkedin.com/in/santhrupthi</span>
+        </div>
+      </div>
+      <div class="contact-form fade-up">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" id="c-name" class="form-control" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="c-email" class="form-control" placeholder="john@email.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" id="c-subject" class="form-control" placeholder="Project Collaboration">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="c-message" class="form-control" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button class="form-submit" id="send-btn">✉️  Send Message</button>
+        <div class="form-status" id="form-status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Santhrupthi S — Built with ❤️ in Bengaluru</p>
+    <div class="footer-links">
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certs</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/data/projects.js"></script>
+  <script src="js/data/skills.js"></script>
+  <script src="js/data/certificates.js"></script>
+  <script src="js/features/theme-toggle.js"></script>
+  <script src="js/features/typing-animation.js"></script>
+  <script src="js/features/scrollprogress.js"></script>
+  <script src="js/features/back-to-top-button.js"></script>
+  <script src="js/features/project-filter.js"></script>
+  <script src="js/features/project-search.js"></script>
+  <script src="js/features/skills-render.js"></script>
+  <script src="js/features/certificates-render.js"></script>
+  <script src="js/features/contact-form.js"></script>
+  <script src="js/features/fade-observer.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
