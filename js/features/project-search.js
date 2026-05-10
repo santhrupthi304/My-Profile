@@ -1,6 +1,3 @@
-/* js/features/project-search.js
-   Also handles rendering project cards (combines filter + search). */
-
 function renderProjects() {
   const container = document.getElementById("projects-container");
   if (!container) return;
@@ -33,10 +30,7 @@ function renderProjects() {
       <div class="tech-stack">
         ${p.technologies.map((t) => `<span class="tech-tag">${t}</span>`).join("")}
       </div>
-      <div class="project-links">
-        <a href="${p.liveDemo}" class="link-btn link-live">🚀 Live Demo</a>
-        <a href="${p.github}"   class="link-btn link-gh">⭐ GitHub</a>
-      </div>
+
     </div>`
     )
     .join("");
@@ -52,3 +46,7 @@ function renderProjects() {
     }
   });
 })();
+// <div class="project-links">            line 33
+      //   <a href="${p.liveDemo}" class="link-btn link-live">🚀 Live Demo</a>
+      //   <a href="${p.github}"   class="link-btn link-gh">⭐ GitHub</a>
+      // </div>

@@ -1,5 +1,3 @@
-/* js/features/typing-animation.js */
-
 (function () {
   const words = [
     "MERN Developer",

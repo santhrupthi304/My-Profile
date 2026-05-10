@@ -1,5 +1,3 @@
-/* js/features/skills-render.js */
-
 (function () {
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("skills-container");

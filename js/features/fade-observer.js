@@ -1,6 +1,3 @@
-/* js/features/fade-observer.js
-   Intersection Observer — triggers .fade-up → .visible animations. */
-
 (function () {
   const observer = new IntersectionObserver(
     (entries) => {

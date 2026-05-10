@@ -1,5 +1,3 @@
-/* js/features/theme-toggle.js */
-
 (function () {
   const html   = document.documentElement;
   const btn    = document.getElementById("theme-toggle");

@@ -1,5 +1,3 @@
-/* js/features/back-to-top-button.js */
-
 (function () {
   const btn = document.getElementById("topBtn");
   if (!btn) return;

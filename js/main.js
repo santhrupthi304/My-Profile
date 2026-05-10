@@ -3,5 +3,5 @@
    This file handles any final initialisation that needs all modules ready. */
 
 (function () {
-  console.log("Portfolio V4.0 — Santhrupthi S — loaded ✅");
+  console.log("Portfolio V4.0 — Santhrupthi S — loaded ");
 })();

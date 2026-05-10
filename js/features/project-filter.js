@@ -1,5 +1,3 @@
-/* js/features/project-filter.js */
-
 (function () {
   let activeFilter = "All";
 

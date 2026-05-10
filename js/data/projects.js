@@ -3,30 +3,30 @@
 const projectsData = [
   {
     id: 1,
-    name: "Movie Time",
-    category: "MERN",
+    name: "Live monitoring of Diabetic Foot Ulcer IOT and Cloud",
+    category: "IOT",
     description:
-      "Full-stack movie ticket booking application with AI-powered smart movie suggestions.",
-    technologies: ["ReactJS", "ExpressJS", "MongoDB"],
+      "IoT-based system for real-time monitoring of diabetic foot ulcers, enabling early detection and improved patient care through cloud integration.",
+    technologies: ["IOT", "Machine Learning", "Cloud"],
     status: "Live",
-    liveDemo: "#",
-    github: "#"
+    liveDemo: "#"
+    // github: "#"
   },
   {
     id: 2,
-    name: "Gola",
-    category: "MERN",
+    name: "3D Solar System",
+    category: "FRONTEND",
     description:
-      "Cab booking platform that helps users quickly book rides for daily travel.",
-    technologies: ["ReactJS", "ExpressJS", "MongoDB"],
+      "interactive 3D solar system simulation built with Three.js, allowing users to explore planets, moons, and their orbits in a visually engaging way.",
+    technologies: ["HTML", "CSS", "JavaScript"],
     status: "Live",
     liveDemo: "#",
-    github: "#"
+    github: "#",
   },
   {
     id: 3,
-    name: "Portfolio Website",
-    category: "Frontend",
+    name: "My Profile",
+    category: "FRONTEND",
     description:
       "Responsive personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind CSS", "JavaScript"],
@@ -36,13 +36,14 @@ const projectsData = [
   },
   {
     id: 4,
-    name: "Developer Stats Dashboard",
+    name: "CLI-Based LMS",
     category: "JavaScript",
     description:
-      "Dynamic dashboard that loads developer statistics and profile insights using Fetch API.",
-    technologies: ["JavaScript", "Fetch API", "JSON"],
+      "Command-line interface learning management system for course management, student enrollment, and progress tracking.",
+    technologies: ["JavaScript", "Node.js"],
     status: "Demo",
     liveDemo: "#",
     github: "#"
+
   }
 ];

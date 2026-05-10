@@ -1,5 +1,3 @@
-/* js/features/scrollprogress.js */
-
 (function () {
   const bar = document.getElementById("scroll-bar");
   if (!bar) return;
